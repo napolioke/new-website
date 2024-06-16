@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Project Ideas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Welcome to My Project Ideas</h1>
+            <p>My project ideas: Monitoring invasive species</p>
+        </section>
+        <section>
+            <h2>Filter Projects</h2>
+            <input type="text" id="project-filter" placeholder="Search for projects..." onkeyup="filterProjects()">
+            <button onclick="filterProjects()">Filter</button>
+        </section>
+        <section>
+            <h2>Project Ideas</h2>
+            <div id="projects">
+                <div class="project">
+                    <h3>Monitoring Invasive Species</h3>
+                    <p>Develop a system to monitor and manage invasive species in different ecosystems.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Project Ideas</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
